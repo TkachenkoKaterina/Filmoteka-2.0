@@ -2,20 +2,20 @@
   "name": "parcel-project-template_filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://TkachenkoKaterina.github.io/Filmoteka",
+  "homepage": "https://TkachenkoKaterina.github.io/Filmoteka-2.0",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Filmoteka/"
+    "build": "parcel build src/*.html --public-url /Filmoteka-2.0/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TkachenkoKaterina/Filmoteka.git"
+    "url": "git+https://github.com/TkachenkoKaterina/Filmoteka-2.0.git"
   },
   "keywords": [],
   "author": "Tkachenko Katerina <Tkachenko.city@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TkachenkoKaterina/Filmoteka/issues"
+    "url": "https://github.com/TkachenkoKaterina/Filmoteka-2.0/issues"
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
