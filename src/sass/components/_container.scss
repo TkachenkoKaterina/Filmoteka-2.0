@@ -1,0 +1,69 @@
+.container {
+  //width: 100%;
+  // padding: 60px 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  // =====  Break Points  =====
+  @media screen and (max-width: 480px) {
+    padding: 20px;
+    outline: 1px solid teal;
+  }
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+    padding: 20px;
+    outline: 1px solid blue;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding: 60px 30px;
+    outline: 1px solid green;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    padding: 60px 30px;
+    outline: 1px solid brown;
+  }
+
+  &__footer{
+    padding-top: 30px;
+    padding-bottom: 30px ;
+  }
+}
+
+.movie{
+  
+    &__collection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+    &__card {
+    width: 100%;
+    height: auto;
+
+  @include tablet {
+    width: calc((100% - 60px) / 2);
+  }
+
+  @include desktop {
+    width: calc((100% - 90px) / 3);
+  }
+}
+ &__link {
+   text-decoration: none;
+   /*transition-duration: var(--animation-time);*/
+   /*transition-property: box-shadow;*/
+   /* transition-timing-function: var(--animation-function);*/
+
+   @include tablet-desktop {
+     display: flex;
+     flex-direction: column;
+     height: auto;
+   }
+ }
+}
+
