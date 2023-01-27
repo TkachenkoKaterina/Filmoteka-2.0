@@ -1,0 +1,151 @@
+:root {
+    --accent-color: #FF6B08;
+    --primary-text-color: #000000;
+}
+
+
+
+P,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    }
+
+li {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.movie__collection {
+    margin-left: 0;
+    padding-left: 0;
+
+}
+
+.movie-card {
+    position: relative;
+    
+}
+
+/* .movie__img__box{
+    
+} */
+
+.movie__img {
+    
+    border-radius: 5px;
+
+@media screen and (min-width: 320px) {
+    background-imgage: url(/src/images/no-Film-Img280x402.jpg);
+    background-repeat: no-repeat, repeat;
+            width: 280px;
+            height: 402px;
+           
+        }
+    
+@media screen and (min-width: 768px) {
+    background-imgage: url(/src/images/no-Film-Img336x455.jpg);
+    background-repeat: no-repeat, repeat;
+            width: 336px;
+            height: 455px;
+           
+        }
+    
+@media screen and (min-width: 1280px) {
+    background-imgage: url(/src/images/no-Film-Img.jpg);
+    background-repeat: no-repeat, repeat;
+            width: 394px;
+            height: 574px;
+            
+        }
+}
+
+.movie__card__textbox {
+    
+    position: inherit;
+@media screen and (min-width: 320px) {
+            margin-top: 10px;
+    
+        }
+    
+@media screen and (min-width: 768px) {
+            margin-top: 8px;
+    
+        }
+    
+@media screen and (min-width: 1280px) {
+            margin-top: 12px;
+    
+        }
+  
+}
+/* .movie__link {} */
+
+.movie__title {
+
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 500;
+        
+@media screen and (min-width: 320px) {
+                    font-size: 12px;
+                    line-height: 16px;
+        
+            }
+        
+@media screen and (min-width: 768px) {
+                    font-size: 12px;
+                    line-height: 16px;
+        
+            }
+        
+@media screen and (min-width: 1280px) {
+                font-size: 20px;
+                line-height: 24px;
+        
+            }
+}
+
+.movie__details {
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 500;
+@media screen and (min-width: 320px) {
+                font-size: 12px;
+                line-height: 16px;
+        
+            }
+        
+@media screen and (min-width: 768px) {
+                font-size: 12px;
+                line-height: 16px;
+        
+            }
+        
+@media screen and (min-width: 1280px) {
+                font-size: 20px;
+                line-height: 24px;
+        
+            }
+        
+}
+
