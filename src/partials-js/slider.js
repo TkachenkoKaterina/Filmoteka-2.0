@@ -77,3 +77,5 @@ function onImgClick(evt) {
   }
   onOpenModal(evt);
 }
+
+console.log(5);
